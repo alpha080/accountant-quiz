@@ -61,16 +61,16 @@ log.write(u'桔子' + str(orange))
 log.write(u'第一题\r\n')
 
 for i in [1,2,3,4]:
-    log.write(u' 服装类商品 %s 月份的成本额为 %s 元，销售额为 %s 元.\r\n' % (i, str(banana[i]['sell']), str(banana[i]['paid']) ))
+    log.write(u' 服装类商品 %s 月份的成本额为 %s 元，销售额为 %s 元.\r\n' % (i, str(banana[i]['paid']), str(banana[i]['sell']) ))
 
 for i in [1,2,3,4]:
-    log.write(u' 食品类商品 %s 月份的成本额为 %s 元，销售额为 %s 元.\r\n' % (i, str(dragon[i]['sell']), str(dragon[i]['paid']) ))
+    log.write(u' 食品类商品 %s 月份的成本额为 %s 元，销售额为 %s 元.\r\n' % (i, str(dragon[i]['paid']), str(dragon[i]['sell']) ))
 
 for i in [1,2,3,4]:
-    log.write(u' 家电类商品 %s 月份的成本额为 %s 元，销售额为 %s 元.\r\n' % (i, str(monkey[i]['sell']), str(monkey[i]['paid']) ))
+    log.write(u' 家电类商品 %s 月份的成本额为 %s 元，销售额为 %s 元.\r\n' % (i, str(monkey[i]['paid']), str(monkey[i]['sell']) ))
 
 for i in [1,2,3,4]:
-    log.write(u' 文化类商品 %s 月份的成本额为 %s 元，销售额为 %s 元.\r\n' % (i, str(orange[i]['sell']), str(orange[i]['paid']) ))
+    log.write(u' 文化类商品 %s 月份的成本额为 %s 元，销售额为 %s 元.\r\n' % (i, str(orange[i]['paid']), str(orange[i]['sell']) ))
 
 
 log.write(u'(1)请把这四类商品的销售额以及成本额组成汇总表.\r\n')
